@@ -1,10 +1,5 @@
-module github.com/colinwilson/lotusdocs/exampleSite
+module github.com/colinwilson/lotusdocs
 
-go 1.24
+go 1.21
 
-require (
-	github.com/colinwilson/lotusdocs v0.2.0 // indirect
-	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20400 // indirect
-)
-
-replace github.com/colinwilson/lotusdocs => ../
+require github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20400 // indirect
